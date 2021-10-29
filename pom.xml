@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://18.224.61.69:9000//</sonar.host.url>
+		<sonar.host.url>http://18.223.159.111:9000/</sonar.host.url>
                 <sonar.login>admin</sonar.login>
 		<sonar.password>Prem@1234</sonar.password>  
               
@@ -104,8 +104,8 @@
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.126.99.162:9980/nexus/repository/wallmart-snapshot/</url>
+	      <name>nmaven-snapshot</name>
+	      <url>http://18.118.166.92:8081/repository/maven-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
