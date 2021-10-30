@@ -95,12 +95,16 @@
 	</dependencies>
 	
 	<distributionManagement>
-	
+	    <repository>
+	      <id>nexus</id>
+	      <name>saturday-release</name>
+	      <url>http://18.118.166.92:8081/repository/saturday-release/</url>
+	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>nmaven-snapshot</name>
-	      <url>http://18.118.166.92:8081/repository/maven-snapshot/</url>
+	      <name>satudat-snapshot</name>
+	      <url>http://18.118.166.92:8081/repository/satudat-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
